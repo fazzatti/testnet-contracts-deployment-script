@@ -1,9 +1,7 @@
 {
   "tasks": {
     "build": "stellar contract build",
-    "setup": "deno run --allow-env --env-file=.env --allow-net --allow-read --allow-write --allow-ffi typescript/setup.ts",
-    "setup:basic": "deno run --allow-env --allow-net --allow-read --allow-write --allow-ffi typescript/setup-basic.ts",
-    "transfer:basic": "deno run --allow-env --allow-net --allow-read --allow-write --allow-ffi typescript/transfer-basic.ts"
+    "setup": "deno run --allow-env --env-file=.env --allow-net --allow-read --allow-write --allow-ffi typescript/setup.ts"
   },
   "compilerOptions": {
     "lib": ["deno.ns", "deno.window", "deno.worker"],
